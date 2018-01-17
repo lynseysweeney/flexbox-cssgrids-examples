@@ -1,0 +1,55 @@
+{
+    "id": 1,
+    "title": "Picture gallery",
+    "source": "https://www.pexels.com/",
+    "images": [
+        {
+            "id": 1,
+            "title": "Image 1",
+            "filename": "pexels-photo-289332.jpeg",
+            "description": "Rocky beach and cliff"
+        },
+        {
+            "id": 2,
+            "title": "Image 2",
+            "filename": "pexels-photo-289979.jpeg",
+            "description": "Castle by the sea"
+        },
+        {
+            "id": 3,
+            "title": "Image 3",
+            "filename": "tree-sea-grass-nature-451855.jpeg",
+            "description": "Tree lit by sunset"
+        },
+        {
+            "id": 4,
+            "title": "Image 4",
+            "filename": "pexels-photo-417174.jpeg",
+            "description": "Sky reflections in the sea"
+        },
+        {
+            "id": 5,
+            "title": "Image 5",
+            "filename": "pexels-photo-461973.jpeg",
+            "description": "Sunset waves crashing"
+        },
+        {
+            "id": 6,
+            "title": "Image 6",
+            "filename": "pexels-photo-327390.jpeg",
+            "description": "Path to lighthouse"
+        },
+        {
+            "id": 7,
+            "title": "Image 7",
+            "filename": "pexels-photo-459302.jpeg",
+            "description": "Gentle waves on a sandy shore"
+        },
+        {
+            "id": 8,
+            "title": "Image 8",
+            "filename": "pexels-photo-221387.jpeg",
+            "description": "Bench beneath the palms"
+        }
+    ]
+}
