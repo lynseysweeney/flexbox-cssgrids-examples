@@ -1,25 +1,26 @@
 $image-max-height:400px;
 $image-max-width:200px;
 $image-margin:2px;
-$spacer-margin:0.5em;
-$spacer-grid-row-margin:1.5em;
-$dark-blue:#000066;
+$spacer-margin:0.5rem;
+$spacer-grid-row-margin:1.5rem;
+$dark-blue:rgb(0, 80, 102);
 $light-blue:#99ccff;
 $dark-red:#e9031b;
+$radius:0.5rem;
+$padding-img:0.25rem;
 $white:#FFFFFF;
 $small-screen-max:480px;
 $medium-screen-max:960px;
 
 body{
-    font-family:sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header{
     background-color:$dark-blue;
     color:$white;
     h1{
-        margin:0;
-        padding:$image-margin;
+        margin:0 0 0 $spacer-margin;
     }
     .title{
         padding:$spacer-margin;
@@ -41,8 +42,7 @@ ul{
 
 main{
     h2{
-        margin:0;
-        
+        margin:0 0 $spacer-margin 0;
     }
 }
 
@@ -50,15 +50,16 @@ button{
     background-color:$dark-red;
     color:$white;
     border:1px solid $dark-blue;
-    border-radius: $image-margin;
-    padding:$spacer-margin;
+    border-radius: $radius;
+    padding:$padding-img;
     cursor:pointer;
 }
 
 img{
    max-width:$image-max-width;
    max-height:$image-max-height;
-   padding:$image-margin;
+    border-radius: $radius;
+    padding:$padding-img;
    margin:$image-margin;
    border:1px solid #000000;
 }
